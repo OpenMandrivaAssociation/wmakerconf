@@ -16,9 +16,9 @@ Patch1:		wmakerconf.configure.patch
 BuildRoot:	%_tmppath/%name-buildroot
 BuildRequires:	gtk2-devel
 BuildRequires:	libwraster-devel
-BuildRequires:	libWindowMaker-devel
-BuildRequires:	libWindowMaker-static-devel
-BuildRequires:	WindowMaker
+BuildRequires:	windowmaker-devel
+BuildRequires:	WindowMaker-static-devel
+BuildRequires:	windowmaker
 
 %description
 WMakerConf (short for Window Maker Configurator) is a configuration
