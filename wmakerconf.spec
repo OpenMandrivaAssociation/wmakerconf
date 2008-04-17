@@ -14,6 +14,7 @@ Source0:	http://garr.dl.sourceforge.net/sourceforge/wmakerconf/wmakerconf-2.12.t
 Patch0:		wmakerconf.src.error.c.patch
 Patch1:		wmakerconf.configure.patch
 BuildRoot:	%_tmppath/%name-buildroot
+BuildRequires:	gtk2-devel
 BuildRequires:	libwraster-devel
 BuildRequires:	libWindowMaker-devel
 BuildRequires:	libWindowMaker-static-devel
