@@ -1,6 +1,6 @@
 %define name	wmakerconf
 %define version	2.12
-%define release	%mkrel 2
+%define release	%mkrel 3
 %define Summary	WMakerConf : a configuration utility for WindowMaker
 
 Summary:	%Summary
