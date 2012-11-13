@@ -1,0 +1,15 @@
+--- src/error.c.orig	2008-04-06 11:35:54.000000000 +0200
++++ src/error.c	2008-04-06 11:36:22.000000000 +0200
+@@ -38,11 +38,7 @@
+ #include <stdio.h>
+ #include <gtk/gtk.h>
+ 
+-#if STDC_HEADERS
+-#	include <stdarg.h>
+-#else  /* not STDC_HEADERS */
+-#	include <varargs.h>
+-#endif /* not STDC_HEADERS */
++#include <stdarg.h>
+ 
+ #include "misc.h"
+ 
