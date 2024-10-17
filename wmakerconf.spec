@@ -9,7 +9,7 @@ Version:	%version
 Release:	%release
 License:	GPL
 Group:		Graphical desktop/WindowMaker
-URL:		http://wmakerconf.sourceforge.net
+URL:		https://wmakerconf.sourceforge.net
 Source0:	http://garr.dl.sourceforge.net/sourceforge/wmakerconf/wmakerconf-2.12.tar.bz2
 Patch0:		wmakerconf.src.error.c.patch
 Patch1:		wmakerconf.configure.patch
